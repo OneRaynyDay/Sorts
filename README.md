@@ -11,24 +11,24 @@ Check these sorts benchmarks out:
 ### The "Good" Sorts O(nlogn)
 ---
 ### Merge Sort
-![alt text][logo]
+![alt text][logo1]
 
-[logo]: http://i.imgur.com/E1NS152.png
+[logo1]: http://i.imgur.com/E1NS152.png
 ### Heap Sort
-![alt text][logo]
+![alt text][logo2]
 
-[logo]: http://i.imgur.com/Pnc8SI1.png
+[logo2]: http://i.imgur.com/Pnc8SI1.png
 ### Quick Sort (Picture not yet provided)
 
 ---
 ### The "Eh" Sorts O(N^K)
 ---
 ### Shell Sort
-![alt text][logo]
+![alt text][logo3]
 
-[logo]: http://i.imgur.com/wBbR6tq.png
+[logo3]: http://i.imgur.com/wBbR6tq.png
 ### Insertion Sort
-![alt text][logo]
+![alt text][logo4]
 
-[logo]: http://i.imgur.com/MJ8PlNc.png
+[logo4]: http://i.imgur.com/MJ8PlNc.png
 ---
