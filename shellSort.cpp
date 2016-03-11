@@ -2,7 +2,7 @@
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>
 
-static const int ARR_SIZE = 100000;
+static const int ARR_SIZE = 160000;
 static const int MAX_NUM = 1000000;
 
 int* generateGaps(const int size, int & newSize){
@@ -63,7 +63,7 @@ int main(){
     }
 
     /**---- TIMING INSERTION SORT ----**/
-
+    /*
     //let's try a one million size array
     for(int i = 0; i < ARR_SIZE; i++){
         arr[i] = rand() % MAX_NUM;
@@ -73,11 +73,8 @@ int main(){
     insertionSort(arr, 0, ARR_SIZE);
     endtime = clock();//now check what amount of ticks we have now. 
     //to get the time, just subtract start from end, and divide by clocks_per_sec.
-    std::cout << "it took " << endtime - starttime << "ticks, or " << ((float)endtime - starttime)/CLOCKS_PER_SEC << "seconds." << std::endl;
-
-    std::cout << "------ The result(only first 10 to check) -------\n";
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < ARR_SIZE; i++){
         std::cout << arr[i] << std::endl;
     }
-
+    std::cout << "it took " << endtime - starttime << "ticks, or " << ((float)endtime - starttime)/CLOCKS_PER_SEC << "seconds." << std::endl;*/
  }       
