@@ -95,23 +95,25 @@ int main(){
     /**
      * Testing
      */
-    int NUM_TEST = 1000;
+    int TRIALS = 5;
+    int NUM_TEST = 160000;
     int NUM_RANGE = 100000;
-
-    cout << "Timing now:" << endl;
-    int t[NUM_TEST];
-    for(int i = 0; i < NUM_TEST; i++){
-        t[i] = rand()%NUM_RANGE;
+    for(int i = 0; i < TRIALS; i++){
+        cout << "Timing now:" << endl;
+        int t[NUM_TEST];
+        for(int i = 0; i < NUM_TEST; i++){
+            t[i] = rand()%NUM_RANGE;
+        }
+        /*for(int i = 0; i < NUM_TEST; i++){
+            cout << t[i] << endl;
+        }*/
+        int starttime = clock();
+        quickSort(t, NUM_TEST);
+        int endtime = clock();
+        cout << "done." << endl;
+        /*for(int i = 0; i < NUM_TEST; i++){
+            cout << t[i] << endl;
+        }*/
+        std::cout << "it took " << endtime - starttime << "ticks, or " << ((float)endtime - starttime)/CLOCKS_PER_SEC << "seconds." << std::endl;
     }
-    for(int i = 0; i < NUM_TEST; i++){
-        cout << t[i] << endl;
-    }
-    int starttime = clock();
-    quickSort(t, NUM_TEST);
-    int endtime = clock();
-    cout << "done." << endl;
-    for(int i = 0; i < NUM_TEST; i++){
-        cout << t[i] << endl;
-    }
-    std::cout << "it took " << endtime - starttime << "ticks, or " << ((float)endtime - starttime)/CLOCKS_PER_SEC << "seconds." << std::endl;
 }
