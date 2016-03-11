@@ -18,7 +18,7 @@ Check these sorts benchmarks out:
 ![alt text][logo2]
 
 [logo2]: http://i.imgur.com/Pnc8SI1.png
-### Quick Sort (Picture not yet provided)
+### Quick Sort
 ![alt text][logo5]
 
 [logo5]: http://i.imgur.com/Q7DbIbJ.png
