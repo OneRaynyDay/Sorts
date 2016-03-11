@@ -19,7 +19,9 @@ Check these sorts benchmarks out:
 
 [logo2]: http://i.imgur.com/Pnc8SI1.png
 ### Quick Sort (Picture not yet provided)
+![alt text][logo5]
 
+[logo5]: http://i.imgur.com/Q7DbIbJ.png
 ---
 ### The "Eh" Sorts O(N^K)
 ---
